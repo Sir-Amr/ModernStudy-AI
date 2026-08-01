@@ -1,0 +1,120 @@
+[data-theme="dark"] {
+  --bg-primary: #0f0f1a;
+  --bg-secondary: #1a1a2e;
+  --text-primary: #e8e8f0;
+  --text-secondary: #a0a0b8;
+  --border-color: #2a2a4a;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: var(--bg-secondary) !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .text-dark {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .border {
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .border-bottom {
+  border-bottom-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .form-control {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .form-control:focus {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .btn-light {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .btn-light:hover {
+  background-color: #2a2a4a !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .bg-gradient-light-purple {
+  background: linear-gradient(to bottom, var(--bg-primary), #1a1a3e, var(--bg-primary));
+}
+
+[data-theme="dark"] .bg-glass {
+  background-color: rgba(26, 26, 46, 0.8) !important;
+  backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .shadow-sm {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+[data-theme="dark"] .shadow-lg {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: var(--bg-secondary) !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: var(--bg-primary) !important;
+}
+
+[data-theme="dark"] .bg-gradient-primary {
+  background: linear-gradient(to bottom right, #4F46E5, #7C3AED) !important;
+}
+
+[data-theme="dark"] .card,
+[data-theme="dark"] .border {
+  border-color: var(--border-color) !important;
+}
+
+/* Dark mode for recharts */
+[data-theme="dark"] .recharts-cartesian-grid-horizontal line,
+[data-theme="dark"] .recharts-cartesian-grid-vertical line {
+  stroke: #2a2a4a !important;
+}
+
+[data-theme="dark"] .recharts-text {
+  fill: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .recharts-legend-item-text {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .recharts-tooltip-wrapper {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .recharts-default-tooltip {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .recharts-tooltip-label {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .recharts-tooltip-item-list {
+  color: var(--text-secondary) !important;
+}

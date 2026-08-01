@@ -1,0 +1,101 @@
+/* Custom styles to complement Bootstrap 5 */
+
+:root {
+  --primary: #4F46E5;
+  --bs-primary: #4F46E5;
+  --bs-primary-rgb: 79, 70, 229;
+}
+
+body {
+  font-family: inherit;
+  background-color: #fafafa;
+}
+
+/* Emulate Tailwind's animate-in and animate-out if not using framer-motion here */
+.animate-in {
+  animation: fadeIn 0.2s ease-in-out;
+}
+.animate-out {
+  animation: fadeOut 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* Glassmorphism helpers */
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Custom Gradients from Tailwind layout */
+.bg-gradient-primary {
+  background: linear-gradient(to bottom right, #4F46E5, #7C3AED) !important;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(to right, #4F46E5, #7C3AED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+<<<<<<< HEAD
+
+.bg-gradient-light-purple {
+  background: linear-gradient(to bottom, #ffffff, #faf5ff, #ffffff);
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+/* Utility for transitions */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Better focus states */
+*:focus-visible {
+  outline: 2px solid #4F46E5;
+  outline-offset: 2px;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  .display-6 {
+    font-size: 1.5rem;
+  }
+}
+=======
+.bg-gradient-light-purple {
+  background: linear-gradient(to bottom, #ffffff, #faf5ff, #ffffff);
+}
+>>>>>>> daead558115fb78bcc50c82564787e2487d9a705
